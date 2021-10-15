@@ -1,0 +1,89 @@
+{
+  "id": "871919f4-45d8-47da-acd7-bcdf5df4d141",
+  "version": "2.0",
+  "name": "Teste_webmotors",
+  "url": "https://www.webmotors.com.br",
+  "tests": [{
+    "id": "a7a5128f-0d32-49e4-851a-174bd3fb8c45",
+    "name": "teste1",
+    "commands": [{
+      "id": "b96706dd-129f-43ce-9903-87ba908d71c8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb3158f7-7b11-42fb-869b-b46fff70e2fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c43e238d-ed31-4a71-bcad-d5ba9123a502",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5319a08b-8a9a-4249-bede-6752076582d7",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03d98133-4be1-4a39-bf9b-ba9300137078",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "honda"
+    }, {
+      "id": "9be2f552-0aa7-4a67-86b8-169261cf9232",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchBar__results__group:nth-child(1) .SearchBar__results__result__name",
+      "targets": [
+        ["css=.SearchBar__results__group:nth-child(1) .SearchBar__results__result__name", "css:finder"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/div/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ce873677-7f5d-4ee8-aad3-776a290719d9",
+    "name": "teste 2 ",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "923c630c-b82b-4db5-b9c8-c65f64e30643",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a7a5128f-0d32-49e4-851a-174bd3fb8c45"]
+  }],
+  "urls": ["https://www.webmotors.com.br/"],
+  "plugins": []
+}
